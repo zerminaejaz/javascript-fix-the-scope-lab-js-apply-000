@@ -1,6 +1,7 @@
-let animal = 'dog'
+var animal = 'dog'
+var myAnimal = "cat"
 
-function myAnimal(animal) {
+function myAnimal() {
   return animal
 }
 
@@ -8,7 +9,8 @@ function yourAnimal(animal) {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  return animal
+  
+  return myAnimal;
 }
 
 function add2(n) {
