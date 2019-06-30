@@ -1,8 +1,8 @@
 var animal = 'dog'
-var myAnimal = "cat"
+var yourAnimal = "cat"
 
 function myAnimal() {
-  return animal
+  return animal;
 }
 
 function yourAnimal(animal) {
@@ -10,7 +10,7 @@ function yourAnimal(animal) {
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
   
-  return myAnimal;
+  return yourAnimal;
 }
 
 function add2(n) {
